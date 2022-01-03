@@ -26,7 +26,12 @@ Understanding matrices in Computer Graphics.
 Simple applications of trigonometric functions on physics.
 
 
-
+# Bibliography
+- *[main]* [The Nature of Code](https://natureofcode.com/book/) by Daniel Shiffman.
+- [Mathematics for 3D Game Programming and Computer Graphics](https://www.amazon.com/Mathematics-Programming-Computer-Graphics-Third/dp/1435458869) by Eric Lengyel.
+- [The Book of Shaders](https://thebookofshaders.com/) by Patricio Gonzalez Vivo and Jen Lowe.
+- [Interactive Computer Graphics: A Top-Down Approach with Shader-Based OpenGL](https://www.amazon.com/Interactive-Computer-Graphics-Top-Down-Shader-Based/dp/0132545233) by Edward Angel and Dave Shreiner.
+- [Learn OpenGL](https://learnopengl.com/) by Joey de Vries
 
 
 
