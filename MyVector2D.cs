@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public class MyVector2D
 {
-    float X;
-
-    float Y;
+    public float X;
+    public float Y;
 
     public MyVector2D(float x, float y)
     {
@@ -40,14 +40,32 @@ public class MyVector2D
         return new MyVector2D(X/Magnitud() , Y/Magnitud());
     }
 
-    public MyVector2D lerp(MyVector2D vector2D, float scale)
+    public void Draw()
     {
-
-        return new MyVector2D((X*(1-scale)+ (vector2D.X*scale)), (Y*(1-scale)+(vector2D.Y*scale)));
+        Debug.DrawLine(Vector3.zero, new Vector3(X, Y));
     }
+
+    public void Draw(MyVector2D customOrigin)
+    {
+        Debug.DrawLine(new Vector3(customOrigin.X, customOrigin.Y), new Vector3(customOrigin.X + X, customOrigin.Y + Y));
+    }
+
+    public MyVector2D Lerp(MyVector2D start, MyVector2D end, float t)
+    {
+        MyVector2D c = end.Resta(start);
+        c = c.Escalar(t);
+        MyVector2D result = start.Sum(c);
+        return result;
+    }
+
+    //public MyVector2D Lerp(MyVector2D vector2D, float scale)
+    //{
+
+    //    return new MyVector2D((X*(1-scale) + (vector2D.X *scale)), (Y*(1-scale)+(vector2D.Y*scale)));
+    //}
 
     public override string ToString()
     {
         return "(" + X + ", " + Y +")";
-    }9
+    }
 }
