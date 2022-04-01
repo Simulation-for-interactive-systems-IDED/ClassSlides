@@ -25,6 +25,8 @@ Understanding matrices in Computer Graphics.
 ## [08 Oscillations](https://docs.google.com/presentation/d/16Sgh8HSquapxiFw2IlvOIfDuvcYPoxr-p0Pmr9Zyo10/edit?usp=sharing) | Trigonometry and physics
 Simple applications of trigonometric functions on physics.
 
+## [Final ideas](https://docs.google.com/presentation/d/1aU5-t2m78QVb4lrLwFB8f1-S3Sz9Sk_6e9B6zbxDmJI/edit?usp=sharing)
+Some random ideas for the final project.
 
 # Bibliography
 - *[main]* [The Nature of Code](https://natureofcode.com/book/) by Daniel Shiffman.
