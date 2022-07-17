@@ -1,3 +1,5 @@
+![Screenshot](LavaBackground.png)
+
 # The class slides
 Repo containing link to the class slides used for the Simulation for Interactive Systems class
 
