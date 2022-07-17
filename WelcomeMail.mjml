@@ -1,0 +1,96 @@
+<mjml>
+  <mj-head>
+    <mj-title>Simulation for interactive systems</mj-title>
+    <mj-preview>Pre-header Text</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-all>
+      <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-text>
+    </mj-attributes>
+    <mj-style inline="inline">
+      .body-section {
+      -webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+      -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+      box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .text-link {
+      color: #5e6ebf
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .footer-link {
+      color: #888888
+      }
+    </mj-style>
+
+  </mj-head>
+  <mj-body background-color="#fed3d3" width="600px">
+    <mj-section full-width="full-width" background-color="#fed3d3" padding-bottom="0">
+      <mj-column width="100%">
+        <mj-image src="https://github.com/Simulation-for-interactive-systems-IDED/ClassSlides/blob/main/LavaBackground.png?raw=true" width="600px" alt="" padding="0" href="https://github.com/Simulation-for-interactive-systems-IDED" />
+      </mj-column>
+    </mj-section>
+    <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
+      <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px">
+        <mj-column width="100%">
+          
+        <mj-text color="#F45E43" font-weight="bold" align="left" text-transform="uppercase" font-size="16px" letter-spacing="1px" padding-top="30px">
+          Simulation for interactive systems
+        </mj-text>
+          <mj-text color="#212b35" font-weight="bold" font-size="20px">
+           Bienvenido a la clase
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            Hola,
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            Bienvenidos al curso de simulación para sistemas interactivos, a continuación podrás encontrar una breve descripcion del contenido del curso junto a un par de links útiles que estaremos usando a través del semestre.
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            <ul>
+              <li style="padding-bottom: 20px">
+                <strong>The content of the course:</strong>
+                Where to go using some maths? and brief review of C#.
+              </li>
+              <li style="padding-bottom: 20px">
+                <strong>What are vectors?:</strong> Imagining the vectors.
+              </li>
+              <li style="padding-bottom: 20px">
+                <strong>Vectors and motion:</strong> Displacement, velocity and acceleration.
+              </li>
+              <li style="padding-bottom: 20px">
+                <strong>Modeling forces:</strong> Understanding the physic forces.
+              </li>
+              <li style="padding-bottom: 20px">
+                <strong>Trigonometric function and its inverses:</strong> Interpreting fundamental trigonometric functions.
+              </li>
+              <li style="padding-bottom: 20px">
+                <strong>Matrices:</strong> Understanding matrices in Computer Graphics.
+              </li>
+              <li style="padding-bottom: 20px">
+                <strong>Procedural worlds:</strong> Make a procedural world (and consider to use some multithreading).
+              </li>
+            </ul>
+          </mj-text>
+          
+          <mj-button background-color="#5e6ebf" align="center" color="#ffffff" font-size="17px" font-weight="bold" href="https://github.com/Simulation-for-interactive-systems-IDED" width="300px">
+            Repositorios del curso
+          </mj-button>
+          <mj-button background-color="#5e6ebf" align="center" color="#ffffff" font-size="17px" font-weight="bold" href="https://github.com/Simulation-for-interactive-systems-IDED/ClassSlides" width="300px">
+            Diapositivas de la clase
+          </mj-button>
+          <mj-button background-color="#5e6ebf" align="center" color="#ffffff" font-size="17px" font-weight="bold" href="https://docs.google.com/spreadsheets/d/1-OfzMj1a5dixPTFwPp0DJ2XVgsEPA0cPeqUEFVKSG9A/edit?usp=sharing" width="300px">
+            Registro de actividad curso Martes y Jueves
+          </mj-button>
+          <mj-button background-color="#5e6ebf" align="center" color="#ffffff" font-size="17px" font-weight="bold" href="https://docs.google.com/spreadsheets/d/1d3cqkRDVqWdYJpbo75aj67TNQ_EicWtIL-8koKnTnvw/edit?usp=sharing" width="300px">
+            Registro de actividad curso Miércoles y Viernes
+          </mj-button>
+          <mj-text color="#637381" font-size="16px" padding-top="30px">
+            ¡Nos vemos!
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
